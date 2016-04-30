@@ -60,9 +60,13 @@ describe("About Applying What We Have Learnt", function() {
 
   it("should add all the natural numbers below 1000 that are multiples of 3 or 5 (functional)", function () {
 
-    var sum = FILL_ME_IN;    /* try chaining range() and reduce() */
+  var sum = FILL_ME_IN;    /* try chaining range() and reduce() */
+    // range returns an arry by 3 and 5 respectively, they are combined (no duplicates) with union and that arrray is reduced by adding to itself
 
-    expect(233168).toBe(FILL IN THIS VALUE);
+   // var sum = _.reduce(_.union(_.range(0,1000,3), _.range(0,1000,5)), function(memo, num){ return memo + num; }, 0);
+    // expect(233168).toBe(sum);
+
+    expect(233168).toBe(Fill this value in);
   });
 
   /*********************************************************************************/
@@ -90,6 +94,8 @@ describe("About Applying What We Have Learnt", function() {
   /* UNCOMMENT FOR EXTRA CREDIT */
   /*
   it("should find the largest prime factor of a composite number", function () {
+
+
 
   });
 
